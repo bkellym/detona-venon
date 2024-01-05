@@ -3,10 +3,67 @@
 <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+
     <title>Detona Venon</title>
 </head>
 <body>
+
+    <div class="container">
+
+        <div class = "menu">
+            <div class="menu-time">
+                <h2 style="color: red;"> Tempo restante </h2>
+                <h2> 0 </h2>
+            </div>
+
+            <div class="menu-score">
+                <h2 style="color: red;"> Pontuação </h2>
+                <h2> 0 </h2>
+            </div>
+
+            <div class="menu-lives">
+                
+                <h2> <img src="./src/images/heart.webp"/> x3 </h2>
+            </div>
+
+
+        </div>
+
+        <div class="panel">
+
+            <div class="linha">
+                <div class="celula"></div>
+                <div class="celula"></div>
+                <div class="celula"></div>
+            </div>
+            
+            <div class="linha">
+                <div class="celula"></div>
+                <div class="celula"></div>
+                <div class="celula"></div>
+            </div>
+
+            <div class="linha">
+                <div class="celula"></div>
+                <div class="celula"></div>
+                <div class="celula"></div>
+            </div>
+
+        </div>
+
+
+
+    </div>
     
+    <script src="./src/scripts/engine.js" > </script>
     
 </body>
 </html>

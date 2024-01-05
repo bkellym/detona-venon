@@ -1,0 +1,46 @@
+html{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90px;
+    width: 100%;
+}
+
+.menu-time, .menu-score, .menu-lives{
+    font-size: 2em;
+}
+
+.menu-lives img{
+    height: 50px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.panel{
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.linha{
+    display: flex;
+}
+
+.celula{
+    background-color: aqua;
+    border: 3px #000000;
+    border-style: solid;
+
+    width: 100px;
+    height: 100px;
+}
