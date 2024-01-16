@@ -13,7 +13,7 @@ html{
     justify-content: space-evenly;
     align-items: center;
 
-    height: 90px;
+    height: 120px;
     width: 100%;
 }
 
@@ -29,18 +29,26 @@ html{
 
 .panel{
     background-color: #FFFFFF;
-    margin: auto;
-}
-
-.linha{
     display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px 0px;
+    width: 100%;
 }
 
 .celula{
-    background-color: aqua;
-    border: 3px #000000;
-    border-style: solid;
+    background-color: rgb(112, 112, 112);
+    border: 2px solid #000000;
 
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.inimigo{
+    background-image: url("../images/venon.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;
 }
