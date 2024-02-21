@@ -43,11 +43,17 @@ function countDown(){
         alert("Acabou! O seu resultado foi: " + state.values.pontuacao);
 }
 
+function playsound(){
+    let audio = new Audio("./src/audio/hit.mp3");
+    audio.play();
+}
+
 function addListenerHitBox(){
     state.view.celulas.forEach((celula) => {
 
         celula.addEventListener("mousedown", () => {
             if(celula.id == state.values.posicaoInimigo){
+                playsound();
                 state.values.pontuacao++;
                 state.view.pontos.textContent = state.values.pontuacao;
                 removerInimigo(state.values.posicaoInimigo);
